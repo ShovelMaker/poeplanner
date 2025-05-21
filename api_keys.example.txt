@@ -1,0 +1,8 @@
+# 실제 API 키는 api_keys.txt 파일에 아래 형식으로 저장해주세요.
+# api_keys.txt 파일은 .gitignore에 의해 Git 추적에서 제외됩니다.
+
+[OPENAI]
+API_KEY = 여기에_실제_OPENAI_API_키_입력
+
+[GEMINI]
+API_KEY = 여기에_실제_GEMINI_API_키_입력
