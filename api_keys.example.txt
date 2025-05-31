@@ -1,8 +1,22 @@
-# 실제 API 키는 api_keys.txt 파일에 아래 형식으로 저장해주세요.
-# api_keys.txt 파일은 .gitignore에 의해 Git 추적에서 제외됩니다.
+################################################################################
+# PoE Planner - API 키 설정 파일 (api_keys.txt)                               #
+################################################################################
+#
+# 안녕하세요! PoE 플래너 사용을 위해 이 파일에 API 키를 설정해주세요.
+#
+# 1. 이 파일의 이름을 "api_keys.txt" 로 정확히 저장해주세요.
+#    (만약 파일 이름이 "api_keys.example.txt" 라면 "example" 부분을 지워주세요.)
+# 2. 아래 각 섹션에 자네의 실제 API 키를 '여기에_API_키를_입력하세요' 부분 대신 넣어주세요.
+# 3. API 키는 매우 중요한 정보이므로, 다른 사람에게 노출되지 않도록 안전하게 관리해주세요!
+#
+################################################################################
 
 [OPENAI]
-API_KEY = 여기에_실제_OPENAI_API_키_입력
+# OpenAI API 키 (ChatGPT 모델 사용 시 필요합니다.)
+# API 키 발급은 다음 주소에서 할 수 있습니다: https://platform.openai.com/api-keys
+API_KEY = 여기에_OpenAI_API_키를_입력하세요
 
 [GEMINI]
-API_KEY = 여기에_실제_GEMINI_API_키_입력
+# Google AI Gemini API 키 (Gemini 모델 사용 시 필요합니다.)
+# API 키 발급은 다음 주소에서 할 수 있습니다: https://makersuite.google.com/app/apikey (Google AI Studio)
+API_KEY = 여기에_Gemini_API_키를_입력하세요
